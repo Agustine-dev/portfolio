@@ -1,0 +1,17 @@
+@import url(bootstrap.css);
+
+:root {
+    --main-color: #78866b;
+    --border-color: #382a3f;
+
+    --mainText: #eaeaea;
+    --settingsText: #22d5f1;
+
+    --primary: #3700b3;
+    --border-color: #c1c1c1;
+    --secondaryText: #05386b;
+
+    --icon-color: #fc2602;
+    /* --background: yellow; */
+    
+}
