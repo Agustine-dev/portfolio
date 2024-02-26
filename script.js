@@ -171,32 +171,38 @@ const techStacks = [
   {
     id: 1,
     name: "Angular",
-    path: "/media/120.png",
+    path: "https://img.icons8.com/badges/100/angularjs.png", 
+    alt:"external-angular-a-typescript-based-open-source-web-application-framework-logo-shadow-tal-revivo"
   },
   {
     id: 1,
     name: "React",
-    path: "/media/icon.png",
+    path: "https://img.icons8.com/nolan/100/react-native.png", 
+    alt:"external-react-a-javascript-library-for-building-user-interfaces-logo-duo-tal-revivo",
   },
   {
     id: 3,
     name: "Next",
-    path: "/media/icon.png",
+    path: "https://img.icons8.com/fluency/100/nextjs.png", 
+    alt:"nextjs",
   },
   {
     id: 4,
     name: "Flask",
-    path: "/media/icon.png",
+    path: "https://img.icons8.com/ios-filled/150/flask.png" ,
+    alt:"flask",
   },
   {
     id: 5,
-    name: "React Native",
-    path: "/media/icon.png",
+    name: "Vanilla JS",
+    path: "https://img.icons8.com/color/96/javascript--v1.png",
+    alt:"javascript--v1"
   },
   {
     id: 6,
     name: "Django",
-    path: "/media/icon.png",
+    path: "https://img.icons8.com/ios/150/django.png",
+    alt:"django",
   },
 ];
 
@@ -211,7 +217,7 @@ techStacks.forEach((tech) => {
   card.classList.add("border-0");
   card.innerHTML = `
   <div class="card-body">
-  <img src=".${tech.path}" class="card-img" />
+  <img src="${tech.path}" class="card-img" alt=${tech.alt} />
   <p class="text-center">${tech.name}</p>
   </div>
   `;
