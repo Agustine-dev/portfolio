@@ -84,7 +84,7 @@ const projects = [
     live: false,
     lastUpdate: day(Date.now()),
     descriptive:
-      "This app was built with lovebuilt with lovebuilt with lovebuilt with lovebuilt with lovebuilt with lovebuilt with love",
+      "This app was built with love",
     industry: "EntertainMent",
     industColor: "text-warning",
   },
@@ -94,7 +94,7 @@ const projects = [
     live: true,
     lastUpdate: day(Date.now()),
     descriptive:
-      "This app was built with love built with lovebuilt with lovebuilt with lovebuilt with lovebuilt with lovebuilt with love ",
+      "Get weather updates from your favorite and residential cities",
     industry: "Enviroment",
     industColor: "text-info",
   },
