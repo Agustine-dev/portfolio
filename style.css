@@ -378,13 +378,13 @@ div.links {
 }
 
 .card-img {
-    width: 180px!important;
-    height: 160px;
+    width: 96px!important;
+    height: 96px;
     box-shadow: 1px 2px 3px var(--cardBackg);
 }
 .card-img:hover {
-    width: 230px!important;
-    height: 250px;
+    width: 120px!important;
+    height: 120px;
     transition: 0.3s ease-in-out all;
     box-shadow: 1px 14px 21px var(--secondaryText);
 }
