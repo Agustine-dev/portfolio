@@ -167,60 +167,68 @@ projects.forEach((proj) => {
   projectCards.appendChild(card);
 });
 
-const techStacks = [
+const feTechStacks = [
   {
     id: 1,
     name: "Angular",
-    path: "https://img.icons8.com/badges/100/angularjs.png", 
+    url: '',
+    path: "https://img.icons8.com/badges/150/angularjs.png", 
     alt:"external-angular-a-typescript-based-open-source-web-application-framework-logo-shadow-tal-revivo"
   },
   {
     id: 1,
     name: "React",
-    path: "https://img.icons8.com/nolan/100/react-native.png", 
+    url: 'https://react.dev/',
+    path: "https://img.icons8.com/nolan/150/react-native.png", 
     alt:"external-react-a-javascript-library-for-building-user-interfaces-logo-duo-tal-revivo",
   },
   {
     id: 3,
-    name: "Next",
-    path: "https://img.icons8.com/fluency/100/nextjs.png", 
+    name: "Next.js",
+    url: 'https://nextjs.org/',
+    path: "https://img.icons8.com/fluency/150/nextjs.png", 
     alt:"nextjs",
   },
   {
     id: 4,
     name: "Flask",
+    url: 'https://flask.palletsprojects.com/en/3.0.x/',
     path: "https://img.icons8.com/ios-filled/150/flask.png" ,
     alt:"flask",
   },
   {
     id: 5,
     name: "Vanilla JS",
-    path: "https://img.icons8.com/color/96/javascript--v1.png",
+    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    path: "https://img.icons8.com/color/150/javascript--v1.png",
     alt:"javascript--v1"
   },
   {
     id: 6,
     name: "Django",
+    url: 'https://www.djangoproject.com/',
     path: "https://img.icons8.com/ios/150/django.png",
     alt:"django",
   },
 ];
 
-const techs = document.getElementById("techs");
+const feTech = document.getElementById("fetech");
 
-techStacks.forEach((tech) => {
+feTechStacks.forEach((tech) => {
   const card = document.createElement("div");
-  card.classList.add("col-md-3");
+  card.classList.add("col-md-4");
   card.classList.add("card");
   card.classList.add("m-1");
   card.classList.add("bg-transparent");
   card.classList.add("border-0");
   card.innerHTML = `
-  <div class="card-body">
+  <a href="${tech.url}" class="text-decoration-none m-0">
+  <div class="card-body text-center d-flex flex-column">
   <img src="${tech.path}" class="card-img" alt=${tech.alt} />
   <p class="text-center">${tech.name}</p>
   </div>
+  </a>
   `;
   // card.classList.add("p-ca")
-  techs.append(card);
+  feTech.append(card);
 });
