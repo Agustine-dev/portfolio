@@ -46,7 +46,7 @@ const projects = [
   {
     name: "To-do List",
     code: "https://github.com",
-    live: true,
+    live: "https://agustine-dev.github.io/to-do-list/",
     lastUpdate: day(Date.now()),
     descriptive: "Simple, Efficient to-do list application. Organize most of life with this app",
     industry: "Design",
@@ -63,8 +63,8 @@ const projects = [
   },
   {
     name: "Foodie Cafe and Restraunt",
-    code: "https://github.com",
-    live: false,
+    code: "#",
+    live: "https://foodie.agustinenyaanga.serv00.net",
     lastUpdate: day(Date.now()),
     descriptive: "Get the menu from your favorite restraunt. Order food and drinks to your comfort zone.",
     industry: "Consumer Staples",
@@ -72,8 +72,8 @@ const projects = [
   },
   {
     name: "HomeOwn RealEstate",
-    code: "https://github.com",
-    live: false,
+    code: "#",
+    live: "http://realestate.agustinenyaanga.serv00.net/login",
     descriptive: "Find a home that you will love. Browse neighborhoods that will inspire",
     industry: "Real Estate",
     industColor: "text-danger",
@@ -81,7 +81,7 @@ const projects = [
   {
     name: "MusicX Player",
     code: "https://github.com",
-    live: false,
+    live: "http://music.agustinenyaanga.serv00.net/",
     lastUpdate: day(Date.now()),
     descriptive:
       "This app was built with love",
@@ -91,7 +91,7 @@ const projects = [
   {
     name: "WeatherMan",
     code: "https://github.com",
-    live: true,
+    live: "https://agustine-dev.github.io/weather-man/",
     lastUpdate: day(Date.now()),
     descriptive:
       "Get weather updates from your favorite and residential cities",
